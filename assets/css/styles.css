@@ -1,0 +1,218 @@
+/* Font Family */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar styles */
+.navbar-nav .nav-link {
+    font-weight: 700;
+    position: relative;
+    color: #000;
+    margin: 0px 10px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.navbar-nav .dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav .dropdown-item {
+    font-weight: 400;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #e12633;
+    color: white;
+}
+
+/* Navbar logo */
+.navbar-brand img {
+    max-height: 50px;
+}
+
+/* Breadcrumb styles */
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #e12633;
+}
+
+.breadcrumb-item a {
+    color: #e12633;
+    text-decoration: none;
+}
+
+/* Store Information Section */
+.badge.bg-danger {
+    background-color: #e12633 !important;
+}
+
+.text-warning .mdi-star,
+.text-warning .mdi-star-half {
+    color: #ffc107;
+}
+
+/* Custom Carousel Controls */
+.custom-carousel-control {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    top: 40%;
+}
+
+.custom-carousel-control:hover {
+    background-color: #e12633;
+}
+
+.carousel-control-prev {
+    left: -40px;
+}
+
+.carousel-control-next {
+    right: -40px;
+}
+
+.brand-image {
+    max-width: 50% !important;
+    object-fit: cover !important;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-inner img:hover {
+    transform: scale(1.05);
+}
+
+/* Button styles */
+.btn-danger {
+    background-color: #e12633;
+    border-color: #e12633;
+}
+
+.btn-danger:hover {
+    background-color: #c11a2c;
+    border-color: #c11a2c;
+}
+
+@media (max-width: 767.98px) {
+    .carousel-control-prev {
+        left: 10px;
+    }
+
+    .carousel-control-next {
+        right: 10px;
+    }
+
+    .carousel-inner img {
+        max-height: 200px;
+    }
+}
+
+/* Review Card Styles */
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #666;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.badge {
+    font-size: 0.8rem;
+}
+
+.text-muted {
+    color: #888 !important;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
+
+/* Brand Slider Styles */
+.brand-slider img {
+    max-height: 60px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.slick-prev, .slick-next {
+    background-color: #e12633;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev::before, .slick-next::before {
+    color: white;
+    font-size: 20px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+@media (max-width: 991.98px) {
+    .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* Load More Button */
+.btn-outline-secondary {
+    border-color: #666;
+    color: #666;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #e12633;
+    border-color: #e12633;
+    color: #fff;
+}
